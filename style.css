@@ -24,13 +24,31 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 2s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
 }
 
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    animation: fading 2s 1s;
 }
+
+@keyframes fading {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+
 
 .ex-5-square {
     margin: 20px;
