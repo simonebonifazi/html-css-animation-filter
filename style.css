@@ -229,6 +229,42 @@
 
 }
 
+.ex-13-button:hover .ex-13-top-white {
+    animation: top-bottom 5s;
+}
+
+@keyframes top-bottom {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+
+    25% {
+        top: -10px;
+        left: calc(100% - 30px);
+    }
+
+    40% {
+        top: calc(100% - 10px);
+        left: calc(100% - 30px);
+    }
+
+    65% {
+        top: calc(100% - 10px);
+        left: -30px;
+    }
+
+    80% {
+        top: -10px;
+        left: -30px;
+    }
+
+    100% {
+        top: -10px;
+        left: 20%;
+    }
+}
+
 
 .ex-12-button,
 .ex-13-button {
