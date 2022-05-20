@@ -79,6 +79,24 @@
     filter: grayscale(1);
 }
 
+.ex-7-img {
+    transition: filter 2s;
+}
+
+.ex-7-img:hover {
+    filter: hue-rotate(145deg) blur(5px);
+}
+
+.ex-8-img {
+    border-radius: 0px;
+    transition: filter 2s linear, border-radius 2s linear;
+}
+
+.ex-8-img:hover {
+    filter: contrast(180%) sepia(80%);
+    border-radius: 25px;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
