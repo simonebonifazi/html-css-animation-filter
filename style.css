@@ -35,6 +35,10 @@
     width: 100px;
     height: 100px;
     background: red;
+}
+
+.ex-4-square:hover {
+
     animation: fading 2s 1s;
 }
 
